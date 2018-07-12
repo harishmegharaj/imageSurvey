@@ -1,0 +1,28 @@
+<!-- <div id="overlay" class="overlay">
+</div> -->
+<div class="main">  
+  <div class="ifError">
+    
+  </div>
+ <!--  <div id="confirm_popup" class="confirm_popup z-depth-2">
+    <p class="head_p">Success</p>
+    <p class="text">"Thank you for submitting your answers."</p>
+    <p class="text">Do you want to proceed with next image?'</p>
+    <div class="btn-div">
+      <button type="button" class="btn btn-primary" (click)="nextQuestion()">Yes</button>
+      <button type="button" [routerLink]="['/login']" class="btn btn-secondary" (click)="close()">No</button>
+    </div> 
+  </div>-->
+  <div id="image" class="flt-l width60">
+    <img *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+    <img id="survey_img" src={{this.imagePath}} class="survey_img">
+  </div>
+  <div id="surveyContainer" class="opt_cont survey-container contentcontainer codecontainer flt-l width36">
+      <span id="surveyProgress"></span>
+      <!-- <span id="progressQuestions"></span> -->
+    <div id="surveyElement"> 
+    </div>
+    <div class="lastQuestionInfo">Submit this survey and load next image</div>
+  </div>
+  
+</div>

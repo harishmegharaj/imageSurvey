@@ -1,0 +1,28 @@
+/* chart {
+        display: block; 
+      } */
+
+.main{
+  display: inline-block;
+  width: 98.5%;
+  height: 100%;
+  padding: 32px 10px;
+  // padding-top: 8em;
+  position: relative;
+ }
+ .flt-l{
+   float: left;
+ }
+ .width50{
+   width:50%;
+ }
+ .opt_cont{
+   background: #fff;
+   margin-left: 32px;
+   margin-top: -8px;
+ /*   position: relative; */
+   /* overflow-y: auto; */
+   
+ }
+
+ 

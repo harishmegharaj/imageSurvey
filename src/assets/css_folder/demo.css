@@ -1,0 +1,479 @@
+/*Variables*/
+
+*{
+  font-family: 'Roboto Regular', arial;
+}
+
+.my-span {
+  background-color: #00b3ee;
+  color: #ffffff;
+}
+.help-block{
+  color: #a94442 !important;
+}
+
+/*Nesting*/
+
+.my-div {
+  width: 100%;
+}
+
+.my-div h2 {
+  color: #0b97c4;
+}
+
+
+/*Extends*/
+
+.input-text,
+.input-text-success {
+  border-radius: 2px;
+  border: 2px solid #ddd;
+  color: #555;
+  font-size: 20px;
+  padding: 5px 12px;
+  display: inline-block;
+  outline: 0;
+}
+
+.input-text-success {
+  border: 4px solid #7be500;
+}
+
+
+.progress {
+  float: right;
+  height: 10px;
+  width: 75% !important;
+  background-color: #cac9c9;
+  position: relative;
+  left: 0.5%;
+  top: 22px;
+}
+
+
+.radio {
+  line-height: 32px;
+}
+
+
+
+/* Fix for alert box overlapping with text option  */
+
+.alert {
+  margin-bottom: 60px;
+}
+
+/* .icheckbox_square-blue,
+.iradio_square-blue {
+  background: url(../images/select.png) no-repeat!important;
+  background-color: #cccccc !important;
+  width: 80px !important;
+  height: 35px !important;
+  margin: 8px !important;
+  border-radius: 8px !important;
+  top: -8px;
+} */
+
+/* .icheckbox_square-blue,
+.iradio_square-blue.checked {
+  background: url(../images/unselect.png) no-repeat!important;
+  background-color: #33B735!important;
+  width: 80px !important;
+  height: 35px !important;
+  margin: 8px !important;
+  border-radius: 8px !important;
+  top: -8px;
+} */
+
+.panel-footer {
+  /*   padding: 10px 15px; */
+  padding: 15px;
+  background-color: #FFFFFF;
+  text-align: right !important;
+  /* margin-left: 26px; */
+  margin-left: 0px;
+}
+.panel-body {
+  height: 500px;
+  margin-top: -8%;
+}
+.radio label {
+  font-size: 14px !important;
+}
+
+.my_span {
+  border: 1px solid;
+}
+
+.radio .check+span {
+  width: 378px !important;
+  float: right;
+  line-height: 2.1;
+  margin-left: 12px !important;
+}
+
+.checkbox .checkbox-material+span {
+  width: 402px;
+  /* float: right; */
+  line-height: 2.2;
+}
+
+.survey_img {
+  width: 100%;
+  height: 100%;
+  display: none;
+  margin-top: -80px;
+  /* to aligin image with options*/
+}
+
+.confirm_popup {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -50px;
+  background: #fff;
+  z-index: 10;
+  border-radius: 10px;
+  display: none;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 10;
+  position: absolute;
+  opacity: .3;
+  top: 0;
+  display: none;
+}
+
+.head_p {
+  background: #337ab7;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.confirm_popup p {
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.confirm_popup text {
+  font-size: 16px;
+}
+
+.btn-div {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-div .btn {
+  margin: 20px !important;
+}
+
+.alert {
+  padding: 0px 18px;
+  position: absolute;
+  top: 61px;
+  right: 149px;
+}
+
+.marg-t-6 {
+  margin-top: 6% !important;
+}
+
+.margin-l-35 {
+  margin-left: 35% !important;
+}
+
+.col-width-6 {
+  width: 34%;
+}
+
+.navbar-brand {
+  padding: 10px 15px !important;
+}
+
+.appName[_ngcontent-c1] {
+  font-size: 24px !important;
+}
+
+.altiHeader[_ngcontent-c1] {
+  padding-top: 0 !important;
+  padding-bottom: 0px !important;
+}
+
+.width40 {
+  width: 40% !important;
+  height: 80% !important;
+}
+
+.width36 {
+  width: 36% !important;
+  height: 80% !important;
+}
+
+.width60 {
+  width: 58.6% !important;
+ 
+  padding-top: 70px;
+  margin-left:2.5%;
+}
+
+.main {
+  /* padding-top: 11em !important; */
+}
+
+.pdf_icn {
+  background: url(../images/pdf_icn.png) no-repeat!important;
+  background-color: #cccccc;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background-size: 77% !important;
+  border: none;
+  margin-top: 4px;
+  float: left;
+}
+
+.pdf_ref {
+  font-size: 14px;
+  color: #1D81D8;
+  letter-spacing: 0;
+}
+
+#image {
+  display: block;
+}
+
+.logout {
+  float: right;
+  padding-right: 5.49%;
+}
+
+body {
+  background-color: #F3F3F3;
+}
+
+h5 {
+  font-size: 16px !important;
+  margin-top: 20px !important;
+  border-top: 1px solid #DBDBDB;
+  line-height: 21px;
+  padding-top: 15px;
+}
+
+
+/* .btnPosition{
+  float: right !important;
+} */
+
+
+/* #surveyElement{
+  width: 415px;
+  height: 539px;
+  float: right;
+  background: #FFFFFF;
+  margin-top: -80px;
+  
+} */
+
+.icheckbox_square-blue,
+.iradio_square-blue {
+  margin-top: -13px !important;
+  top:5px !important;
+}
+
+/* .iradio_square-blue:hover {
+  background: url(../images/radioOnHover.png) no-repeat!important;
+} */
+/* .iradio .hover{
+  background: url(../images/radioOnHover.png) no-repeat!important;
+} */
+.iradio_square-blue.hover{
+  background: url(../images/radioOnHover.png) no-repeat!important;
+}
+.icheckbox_square-blue.hover{
+  background: url(../images/checkOnHover.png) no-repeat!important; 
+} 
+
+
+/* #surveyElement{
+  height: 509px;
+  overflow-y: auto;
+} */
+
+.icheckbox_square-blue {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  /*  background: url(../images/green.png) no-repeat!important; */
+  /* background-color: #cccccc !important;*/
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAAYCAYAAADEQnB9AAAIUElEQ…zfEI/yWl2rc/9Ix8C7Uj7S+UcjW63/tK6vU6Zt0qRJ5/+eQgtux9fAPAAAAABJRU5ErkJggg==) no-repeat;
+  border: none;
+  cursor: pointer;
+  top: 7px;
+}
+
+.icheckbox_square-blue.checked {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background: url(../images/checked.png) no-repeat!important;
+  /* background-color: #cccccc !important;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAAYCAYAAADEQnB9AAAIUElEQ…zfEI/yWl2rc/9Ix8C7Uj7S+UcjW63/tK6vU6Zt0qRJ5/+eQgtux9fAPAAAAABJRU5ErkJggg==) no-repeat; */
+  border: none;
+  cursor: pointer;
+  top: 7px;
+}
+
+
+/* .iradio_square-blue.checked {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background: url(../images/green.png) no-repeat!important;
+  border: none;
+  cursor: pointer;
+  top: 0px; 
+ top: 31px; 
+}
+  */
+
+.iradio_square-blue.checked {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background: url(../images/greenRadio.png) no-repeat!important;
+  border: none;
+  cursor: pointer;
+}
+
+.sv_qcbx {
+  height: 325px;
+  overflow-y: auto;
+}
+.sv_qstn {
+  margin-top:  -28px;
+}
+
+.form-inline {
+  height: 360px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.userInfo {
+  float: right;
+  width: 300px;
+  height: 78px;
+  /* margin-right: 59px; */
+  padding-top: 24px;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+  background-color: #43B1F2;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  color: #fff;
+  /*  background-color: #337ab7; */
+  /*   border-color: #2e6da4; */
+  background: #1D81D8;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+}
+
+.lastQuestionInfo {
+  width: 250px;
+  color: #F07803;
+  font-size: 13px;
+  position: absolute;
+  bottom: 82px;
+  right: 225px;
+  display: none;
+}
+
+.ifError{
+display: none;
+height: 50px;
+width: 850px;
+margin: 0 auto;
+font-size: 18px;
+font-weight: 500;
+padding-left: 6px;
+margin-top: 10px;
+position: relative;
+text-align: center;
+}
+.progress-bar span {
+  visibility: hidden;
+}
+#surveyProgress {
+  /* position: relative;
+  top: -2.5em; */
+  padding-left: 14px;
+  position: relative;
+  top: 15px;
+}
+#progressQuestions {
+  color: #9B9B9B;
+  font-size: 14px;
+  margin-left: -6em;
+}
+
+
+/*
+ *  STYLE 3
+ */
+
+ .form-inline::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+ }
+ 
+ .form-inline::-webkit-scrollbar
+ {
+     width: 6px;
+     background-color: #F5F5F5;
+ }
+ 
+ .form-inline::-webkit-scrollbar-thumb
+ {
+     background-color: #9D9D9D;
+ }

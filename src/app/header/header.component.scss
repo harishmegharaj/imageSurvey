@@ -1,0 +1,99 @@
+.footer{
+    background-color: gray;
+    margin-bottom: 0px;
+    height: 45px;
+    position: absolute;
+}
+.footerText{
+    color:white;
+    text-align: center;
+}
+.header{
+    background-color: #1D81D8;
+    border-bottom-color: 1px solid blue;
+    border-bottom-color: 2px solid blue;
+    border-bottom-color:#337ab7;;
+    border-bottom-width: 2.5px;
+     height: 78px; 
+   // margin-top: 10px;
+}
+.guide{
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 69px;
+    background-color: #a3a3e2;
+    /* color: white; */
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+.contactInfo{
+    position: absolute;
+    right: 0px;
+    top: 60px;
+}
+.headerImage{
+    width: 101px;
+    height: 48px;
+    margin-top: -8px;
+}
+.appName{
+    text-align: center;
+    font-size: 48px;
+}
+.altiHeader {
+    padding-top: 12px;
+    border-bottom: 2px solid #337ab7;
+}
+.headed_text{
+   /*  width: 83%;
+    text-align: left;
+    color: #fff;
+    height: 78px;
+    float: right; */
+    width: 47%;
+    text-align: left;
+    color: #fff;
+    height: 78px;
+    float: left;
+}
+.headed_text p {
+    text-align: left !important;
+    padding: 3% !important;
+    margin-left:4%;
+}
+.header_img{
+    height: 78px;
+    width: 15%;
+    float: left;
+}
+
+ .logoutBtn{
+    width: 93px;
+    height: 36px;
+    margin-top: 21px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1D81D8;
+    margin-left:40%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    border-radius: 2px;
+
+    /* background: #FFFFFF;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    border-radius: 2px;
+    color: #1D81D8;
+    font-weight: 700;
+    float: right !important;
+    margin-right: -491px;
+    margin-top: -40px;
+ */
+    /* margin-top: 22px;
+  margin-left: 67px;
+  background: #FFFFFF;
+  color: #1D81D8;
+  font-weight: 600;
+  font-size: 14px; */
+} 

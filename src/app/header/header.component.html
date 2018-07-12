@@ -1,0 +1,15 @@
+<div class="header altiHeader">
+  <div class="headed_text">
+    <p class="appName">Image Classification Survey</p>
+  </div>
+  <div *ngIf="isSessionToken()" class="logout" (click)="logout()">
+    <button class="btn  logoutBtn">LOGOUT</button>
+  </div>
+  <div *ngIf="isSessionToken()" class="userInfo">
+      <img src="assets/images/user_logo.png"> 
+        {{ getUserName() }}
+  </div>
+
+
+  <div class="navbar-collapse" id="navbarNavAltMarkup"></div>
+</div>
